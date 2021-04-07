@@ -1,0 +1,60 @@
+{
+    "exitChat": "¿Desea salir del chat?",
+    "titleConfirmation": "SI",
+    "titleDenyConformation": "NO",
+    "titleMenuChat": "Salir del chat",
+    "uriPayment": "http://donas-exoticas.com/",
+    "dbGeneral": "general",
+    "dbPending": "chatPending",
+    "dbDoctor": "onlineDoctor",
+    "paymentPaypay": true,
+    "accessChatFree": "AccessChatFree",
+    "code": 123,
+    "initialChat": "Iniciar chat con un médico",
+    "signOutSession": "Cerrar sesión",
+    "doctorActive": "No hay doctores disponibles intente más tarde",
+    "SuccessPayment": "Success",
+    "titleChatLogin": "Ingresar al chat",
+    "Nikname": "Nikname",
+    "titleInputChat": "Escribir mensaje...",
+    "textWelcomeHomeParagraph1": "Somos un grupo de médicos comprometidos a cuidar tu salud sin salir de casa.",
+    "textWelcomeHomeParagraph2": "En esta temporada de pandemia no dudes en contactarnos.",
+    "textWelcomeHomeParagraph3": "Lunes a Viernes de",
+    "textWelcomeHomeParagraph4": "9:00 am - 20:00 pm",
+    "textWelcomeHomeParagraph5": "Sábados de",
+    "textWelcomeHomeParagraph6": "9:00 am - 16:00 pm",
+    "textWelcomeHomeParagraph7": "Sigue las instrucciones:",
+    "stepRegister": [{
+        "id": 1,
+        "title": "Crea tu cuenta"
+    },
+    {
+        "id": 2,
+        "title": "Paga fácil y seguro"
+    },
+    {
+        "id": 3,
+        "title": "Chatea con tú médico"
+    }],
+    "headerTitleHome": "Médico Movil",
+    "imageHome": "http://donas-exoticas.com/3.jpg",
+    "imageRegister": "http://donas-exoticas.com/registerUser.png",
+    "menuActive":{
+        "home": {
+            "section": "home",
+            "name": "Inicio",
+            "active": true
+        },
+        "Account": {
+            "section": "Account",
+            "name": "Mi Perfil",
+            "active": true
+        },
+        "MyChats": {
+            "section": "MyChats",
+            "name": "Mis consultas",
+            "active": true
+        }
+    }
+}
+

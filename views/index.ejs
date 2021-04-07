@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content="width-device-width, initial-scale=1-0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Document</title>
+        <style>
+            body {
+                font-size: 1.5em;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .payment {
+                margin-top: 5%;
+                margin-left: 5%;
+            }
+
+            .btn-payment {
+                width: 60%;
+                background-color: #303f9f;
+                text-decoration: none;
+                color: white;
+                border: none;
+                padding: 3%;
+                margin-left: 17%;
+            }
+            span {
+                color: #e64a19;
+            }
+            .costo-anterior {
+                color: #90a4ae;
+                font-size: 0.8em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='payment'>
+            <img src="paypal-784404_1280-1024x512.png" width="70%"/>
+            <h2>Costo por consulta <br/><span>$ 4 USD</span> <s class='costo-anterior'> $ 10 USD </s></h2>
+            <form action="/paypal">
+                <button class='btn-payment' type="submit">PAGAR</button>
+            </form>
+        </div>
+    </body>
+</html>
