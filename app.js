@@ -23,7 +23,7 @@ paypal.configure({
 })
 
 app.get('/', (req, res) => {
-    res.render('index')
+    res.render(200)
 })
 
 app.get('/app-config', (req, res) => {
@@ -219,6 +219,6 @@ app.get('/send-contacts', (req, res) => {
             res.render("success");
 })
 
-app.listen(3000, () => {
+app.listen(8081, () => {
     console.log('Server is running')
 })
