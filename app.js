@@ -219,6 +219,6 @@ app.get('/send-contacts', (req, res) => {
             res.render("success");
 })
 
-app.listen(3003, () => {
+app.listen(3000, () => {
     console.log('Server is running')
 })
